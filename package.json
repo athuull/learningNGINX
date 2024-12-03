@@ -1,0 +1,16 @@
+{
+    "name" : "nginx-node" , 
+    "version" : "1.0.0" , 
+    "description": "A node js app serving a static html file" , 
+    "main" : "server.js", 
+
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Athul",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "path" : "^0.12.7"
+    }
+}
